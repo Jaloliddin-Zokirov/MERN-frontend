@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     // user Details //
     fetchUsersDetails();
-  }, []);
+  }, [fetchUsersDetails]);
 
   return (
     <>
